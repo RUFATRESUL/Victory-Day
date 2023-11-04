@@ -198,6 +198,7 @@ body {
   font-size: 30px;
   font-weight: 900;
   color: #2a2a2a;
+  width: 500px;
 }
 
 
@@ -1145,47 +1146,29 @@ chefs
   transition: all .3s;
 }
 
-#chefs .chef-item .thumb ul.social-icons {
+#chefs .chef-item .thumb .text p {
   position: absolute;
   z-index: 11;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 2%;
+  left: -2%;
+
   width: 100%;
   transition: all .5s;
   opacity: 0;
   visibility: hidden;
+  overflow: hidden;
 }
 
-#chefs .chef-item .thumb ul.social-icons li {
-  display: inline-block;
-  margin: 0px 5px;
-}
-
-#chefs .chef-item .thumb ul.social-icons li a {
-  width: 40px;
-  height: 40px;
-  background-color: #fff;
-  color: #2a2a2a;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  display: inline-block;
-  transition: all .5s;
-}
-
-#chefs .chef-item .thumb ul.social-icons li a:hover {
-  background-color: #fb5849;
-}
 
 #chefs .chef-item:hover .overlay {
   opacity: .9;
   visibility: visible;
 }
 
-#chefs .chef-item:hover ul.social-icons {
+#chefs .chef-item:hover div.text p{
   opacity: 1;
   visibility: visible;
+  color: white;
 }
 
 #chefs .chef-item .down-content {
